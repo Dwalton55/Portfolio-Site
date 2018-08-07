@@ -1,0 +1,182 @@
+.grid{
+    display:grid;
+    grid-template-areas: 
+    "blue1 blue2 red1 red1 red1"
+    "blue3 blue4 white1 white1 white1"
+    "red2 red2 red2 red2 red2"
+    "white2 white2 white2 white2 white2"
+    "red3 red3 red3 red3 red3"
+    "white3 white3 white3 white3 white3";
+    height: 75%;
+    width:75%;
+    grid-gap: 5px;
+    
+    /* background: grey; */
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.blue1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue1;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
+}
+.blue1:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.blue2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue2;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+}
+.blue2:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.blue3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue3;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+}
+.blue3:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.blue4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue4;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+}
+.blue4:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.red1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height:100%;
+    width: 100%;
+    grid-area: red1;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
+}
+
+.red1:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.red2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height:100%;
+    width: 100%;
+    grid-area: red2;
+    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.red2:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.red3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height:100%;
+    width: 100%;
+    grid-area: red3;
+    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.red3:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height:100%;
+    width: 100%;
+    grid-area: white1;
+    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white1:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height:100%;
+    width: 100%;
+    grid-area: white2;
+    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white2:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height:100%;
+    width: 100%;
+    grid-area: white3;
+    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+.white3:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 500px){
+    .grid {
+      background-color: blue;
+      display:grid;
+      grid-template-areas: 
+      "blue1 red1 "
+      "blue2 white1 "
+      "blue3 red2 "
+      "blue4 white2 "
+      "red3 red3"
+      "white3 white3 ";
+      height: 75%;
+      width:75%;
+      grid-gap: 5px;
+      
+    }
+  }
