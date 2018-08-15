@@ -3,7 +3,7 @@
     grid-template-areas: 
     "blue1 blue2 red1 red1 red1"
     "blue3 blue4 white1 white1 white1"
-    "red2 red2 red2 red2 red2"
+    "blue5 blue6 red2 red2 red2"
     "white2 white2 white2 white2 white2"
     "red3 red3 red3 red3 red3"
     "white3 white3 white3 white3 white3";
@@ -19,7 +19,10 @@ a{
     text-decoration: none;
     color: black;
 }
+/* ======================================= */
 .blue1{
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +33,47 @@ a{
     box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
 
 }
+
+.blue1 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue1 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue1:hover .overlay {
+    opacity: 1;
+  }
+
 .blue1:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* Blue 2================================================== */
 .blue2{
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +82,51 @@ a{
     width: 100%;
     grid-area: blue2;
     box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
 }
+
+.blue2 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue2 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue2:hover .overlay {
+    opacity: 1;
+  }
+
 .blue2:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+
+/* ============================================================ */
+
 .blue3{
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,12 +135,51 @@ a{
     width: 100%;
     grid-area: blue3;
     box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
 }
+
+.blue3 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue3 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue3:hover .overlay {
+    opacity: 1;
+  }
+
 .blue3:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+
+/* Blue 3 ================================================ */
+/* ======================================= */
 .blue4{
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,12 +188,151 @@ a{
     width: 100%;
     grid-area: blue4;
     box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
 }
+
+.blue4 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue4 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue4:hover .overlay {
+    opacity: 1;
+  }
+
 .blue4:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* Blue 2================================================== */
+.blue5{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue5;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.blue5 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue5 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue5:hover .overlay {
+    opacity: 1;
+  }
+
+.blue5:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.blue6{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    height:100%;
+    width: 100%;
+    grid-area: blue6;
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.blue6 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.blue6 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .blue6:hover .overlay {
+    opacity: 1;
+  }
+
+.blue6:hover {
+    transform: scale(1.15);
+	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* ================================================== */
 .red1{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +348,45 @@ a{
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+
+
+.red1 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.red1 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .red1:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+/* =========================================================== */
 .red2{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,13 +394,52 @@ a{
     height:100%;
     width: 100%;
     grid-area: red2;
-    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
 }
+
 .red2:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+
+
+.red2 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.red2 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .red2:hover .overlay {
+    opacity: 1;
+  }
+
+
+/* ================================================ */
 .red3{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,13 +447,50 @@ a{
     height:100%;
     width: 100%;
     grid-area: red3;
-    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
 }
+
 .red3:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
-.white1{
+
+
+
+.red3 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.red3 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .red3:hover .overlay {
+    opacity: 1;
+  }
+
+  .white1{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,13 +498,50 @@ a{
     height:100%;
     width: 100%;
     grid-area: white1;
-    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
 }
+
 .white1:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
-.white2{
+
+
+
+.white1 .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.white1 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .white1:hover .overlay {
+    opacity: 1;
+  }
+
+  .white2{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,13 +549,49 @@ a{
     height:100%;
     width: 100%;
     grid-area: white2;
-    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
 }
+
 .white2:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
-.white3{
+
+
+
+.white2 .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.white2 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .white2:hover .overlay {
+    opacity: 1;
+  }
+  .white3{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,12 +599,47 @@ a{
     height:100%;
     width: 100%;
     grid-area: white3;
-    box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 25px -40px rgba(0, 0, 0, 0.3), 0px 3px 20px 2px rgba(0, 0, 0, 0.2);
+	
 }
+
 .white3:hover {
     transform: scale(1.15);
 	box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
 }
+
+
+
+.white3 .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.white3 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    background-image: url('https://www.placecage.com/200/200');
+    background-size: cover;
+  }
+
+  .white3:hover .overlay {
+    opacity: 1;
+  }
 
 @media(max-width: 500px){
     .grid {

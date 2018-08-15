@@ -7,16 +7,126 @@ class Flag extends Component {
     render() {
         return (
             <div className="grid">
-        <Link to= "/"className="blue1" > Project 1 </Link>
-        <Link to= "/"className="blue2"> project 2</Link>
-        <Link to= "/"className="blue3"> project 3</Link>
-        <Link to= "/"className="blue4"> project 4</Link>
-        <Link to= "/"className="red1">About me</Link>
-        <Link to= "/"className="red2"> Skills</Link>
-        <Link to= "/"className="red3"> Work History</Link>
-        <Link to= "/"className="white1">Contact me </Link>
-        <Link to= "/"className="white2"> Education</Link>
-        <Link to= "/"className="white3"> Links</Link>
+                {/* ======================================= */}
+                <div to="/" className="blue1" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="blue2" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="blue3" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="blue4" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="blue5" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="blue6" >
+
+                    <div className='.title'>project1</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="red1" >
+
+                    <div className='.title'>About Me</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="red2" >
+
+                    <div className='.title'>Skills</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="red3" >
+
+                    <div className='.title'>Work History</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="white1" >
+
+                    <div className='.title'>Contact Me</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="white2" >
+
+                    <div className='.title'>Education</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
+                {/* ======================================= */}
+                <div to="/" className="white3" >
+
+                    <div className='.title'>Work History</div>
+                    <div class="overlay">
+                        <div class="text">Hello World</div>
+                    </div>
+                
+                </div>
+                {/* ============================================= */}
             </div>
         );
     }
