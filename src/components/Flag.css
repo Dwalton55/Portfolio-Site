@@ -108,7 +108,7 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
+    background-image: url('./../components/images/SimeonSays.png');
     background-size: cover;
   }
 
@@ -161,7 +161,7 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
+    background-image: url('./../components/images/bjjGamePlan.png');
     background-size: cover;
   }
 
@@ -214,7 +214,7 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
+    background-image: url('./../components/images/spaceKings.png');
     background-size: cover;
   }
 
@@ -265,7 +265,7 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
+    background-image: url('./../components/images/IndependentRemake.png');
     background-size: cover;
   }
 
@@ -317,7 +317,7 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
+    background-image: url('./../components/images/Vagabond.png');
     background-size: cover;
   }
 
@@ -374,12 +374,12 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+   
   }
 
   .red1:hover .overlay {
     opacity: 1;
+    background: red;
   }
 
 
@@ -428,13 +428,16 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+    
   }
 
   .red2:hover .overlay {
     opacity: 1;
+    background: red;
   }
+  .red2 li{
+    color: white;
+}
 
 
 /* ================================================ */
@@ -481,12 +484,16 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+    
   }
 
   .red3:hover .overlay {
     opacity: 1;
+    background: red;
+  }
+
+  .red3 li{
+      color: white;
   }
 
   .white1{
@@ -532,12 +539,12 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+  
   }
 
   .white1:hover .overlay {
     opacity: 1;
+    background:white;
   }
 
   .white2{
@@ -583,12 +590,12 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+ 
   }
 
   .white2:hover .overlay {
     opacity: 1;
+    background:white;
   }
   .white3{
     position: relative;
@@ -633,14 +640,17 @@ a{
     opacity: 0;
     transition: .5s ease;
     /* background-color: #008CBA; */
-    background-image: url('https://www.placecage.com/200/200');
-    background-size: cover;
+   
   }
 
   .white3:hover .overlay {
     opacity: 1;
+    background:white;
   }
 
+  li{
+      list-style: none;
+  }
 @media(max-width: 500px){
     .grid {
       background-color: blue;
@@ -650,8 +660,8 @@ a{
       "blue2 white1 "
       "blue3 red2 "
       "blue4 white2 "
-      "red3 red3"
-      "white3 white3 ";
+      "blue5 red3"
+      "blue6 white3 ";
       height: 75%;
       width:75%;
       grid-gap: 5px;
